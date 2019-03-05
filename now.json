@@ -8,9 +8,7 @@
         {
             "src": "/(.*)",
             "headers": {
-                "cache-control": "public, max-age=600",
-                "access-control-allow-credentials": "true",
-                "access-control-allow-origin": "*.kainy.cn"
+                "cache-control": "public, max-age=600"
             },
             "dest": "https://disqus.com/api/$1"
         }
