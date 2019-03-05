@@ -1,10 +1,20 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@now/node"
+    "version": 2,
+    "name": "disqusjs-proxy",
+    "alias": [
+        "zeit.kainy.cn"
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "headers": {
+                "cache-control": "public, max-age=[Cache Age]"
+            },
+            "dest": "https://disqus.com/api/$1"
+        }
+    ],
+    "github": {
+        "enabled": true,
+        "autoJobCancelation": true
     }
-  ],
-  "name": "vue-ssr"
 }
