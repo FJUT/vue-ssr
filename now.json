@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "name": "baidu",
+    "name": "126",
     "alias": [
-        "baidu.now.sh"
+        "126.now.sh"
     ],
     "routes": [
         {
@@ -10,7 +10,7 @@
             "headers": {
                 "cache-control": "public, max-age=600"
             },
-            "dest": "http://gqmg.com/"
+            "dest": "https://gqmg.com/"
         }
     ],
     "github": {
