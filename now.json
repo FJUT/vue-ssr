@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "name": "126",
+    "name": "paypal",
     "alias": [
-        "126.now.sh"
+        "paypal.now.sh"
     ],
     "routes": [
         {
@@ -10,7 +10,7 @@
             "headers": {
                 "cache-control": "public, max-age=600"
             },
-            "dest": "https://gqmg.com/"
+            "dest": "http://gqmg.com/"
         }
     ],
     "github": {
