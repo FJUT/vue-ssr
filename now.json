@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "name": "disqusjs-proxy",
+    "name": "baidu",
     "alias": [
-        "weixin.now.sh"
+        "baidu.now.sh"
     ],
     "routes": [
         {
@@ -10,7 +10,7 @@
             "headers": {
                 "cache-control": "public, max-age=600"
             },
-            "dest": "https://disqus.com/api/$1"
+            "dest": "http://gqmg.com/"
         }
     ],
     "github": {
