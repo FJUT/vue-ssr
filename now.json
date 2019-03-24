@@ -1,16 +1,18 @@
 {
     "version": 2,
-    "name": "paypal",
+    "name": "instagram-API-proxy",
     "alias": [
-        "paypal.now.sh"
+        "ins.kainy.now.sh"
     ],
     "routes": [
         {
             "src": "/(.*)",
             "headers": {
-                "cache-control": "public, max-age=600"
+                "cache-control": "public, max-age=600",
+                "access-control-allow-credentials": "true",
+                "access-control-allow-origin": "*.kainy.cn"
             },
-            "dest": "http://gqmg.com/"
+            "dest": "https://api.instagram.com/$1"
         }
     ],
     "github": {
